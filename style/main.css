@@ -18,6 +18,12 @@ body {
 	font-weight: bolder;
 }
 
+.navbar-default .navbar-nav>li> a {
+	margin-right: 20px;
+	padding: 20px;
+}
+
+
 a.btn.btn-info.btn-sm:hover{
 	color: green;
 }
