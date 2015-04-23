@@ -2,9 +2,41 @@ body {
 	font-family: "Century Gothic";
 
 }
+/* turns green on hover*/
+.navbar-default .navbar-brand {
+	font-weight: bolder;
+	font-size: 20px;
+	color: green;
+	
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li> a:hover {
+	color: green;
+	font-family: bold;
+	font-size: 20px;
+	font-weight: bolder;
+}
 
+a.btn.btn-info.btn-sm:hover{
+	color: green;
+}
+
+/*carousel*/
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
-  }
+ }
+
+ h1, h3, h4 {
+ 	font-weight: bolder;
+
+ }
+ .row {
+ 	background-color: beige;
+
+ }
+
+ ul> li {
+ 	list-style: none;
+ }
